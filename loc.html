@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = JSON.stringify({coords_lat:position.coords.latitude,
+                                coords_long: position.coords.longitude,
+                                coords_accuracy: position.coords.accuracy,
+                                altitude: position.coords.altitude,
+                                altitude_accuracy: position.coords.altitudeAccuracy,
+                                heading: position.coords.heading,
+                                speed: position.coords.speed,
+                                timestamp: position.timestamp})
+}
+
+getLocation()
+</script>
+
+</body>
+</html>

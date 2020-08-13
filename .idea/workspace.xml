@@ -10,18 +10,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1494052-5c2b-4c01-92c5-4ce28ddea802" name="Default Changelist" comment="" />
+    <list default="true" id="f1494052-5c2b-4c01-92c5-4ce28ddea802" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/loc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="cb156774-b3d2-44ca-8c94-9ce15a91dd99" />
   <component name="ProjectId" id="1fjniBgLsptW5qGGrGbCRm0jVvr" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -32,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -47,6 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1596740496567</updated>
       <workItem from="1596740498963" duration="850000" />
+      <workItem from="1597132899546" duration="37000" />
+      <workItem from="1597321844866" duration="229000" />
     </task>
     <task id="LOCAL-00001" summary="Add">
       <created>1596740689550</created>
@@ -78,6 +91,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
